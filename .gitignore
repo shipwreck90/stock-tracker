@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Cached market data (regenerated automatically)
+data/cache/
+
+# Local CSV files you add yourself (keep them out of version control)
+data/user/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
